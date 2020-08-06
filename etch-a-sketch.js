@@ -25,8 +25,8 @@ function setGridSize(grid, size) {
 }
 
 function deleteChildren(node) {
-  while (node.lastChild) {
-    node.removeChild(node.lastChild);
+  while (node.firstChild) {
+    node.removeChild(node.firstChild);
   }
 }
 
