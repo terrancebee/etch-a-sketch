@@ -35,7 +35,7 @@ function resetGrid(grid, size = DEFAULT_GRID_SIZE) {
 }
 
 function clearGrid(grid) {
-  for (let square of grid.querySelectorAll(".square")) {
+  for (const square of grid.querySelectorAll(".square")) {
     square.removeAttribute("style");
   }
 }
