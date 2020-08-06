@@ -55,7 +55,7 @@ changeGridButton.addEventListener("click", (evt) => {
     if (Number.isNaN(number)) {
       userInput = prompt("Oops, that's not a number! We need one between 2 and 100!")
     } else {
-      userInput = prompt("Please pick a number between 2 and 100 please.");
+      userInput = prompt("That number was out of range, please pick a number between 2 and 100.");
     }
     
     number = parseInt(userInput, 10);
