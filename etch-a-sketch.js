@@ -19,7 +19,6 @@ function createGrid(grid, size) {
 }
 
 function setGridSize(grid, size) {
-  currentGridSize = size;
   grid.style.gridTemplateColumns = `repeat(${size}, 1fr)`;
   grid.style.gridTemplateRows = `repeat(${size}, 1fr)`;
 }
